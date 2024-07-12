@@ -28,7 +28,7 @@ const Footer = () => {
       </div>
       <hr className="border-gray-600" />
       <div className="footer-bottom flex flex-col lg:flex-row justify-between items-center text-base sm:text-lg lg:text-xl gap-4">
-        <p>© 2023 Alex Bennett. All rights reserved.</p>
+        <p>© 2024 Eliyat Thapa Magar. All rights reserved.</p>
         <div className="footer-bottom-right flex gap-4">
           <p>Term of Services</p>
           <p>Privacy Policy</p>

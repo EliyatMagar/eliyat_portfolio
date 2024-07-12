@@ -20,7 +20,8 @@ const Hero = () => {
           <ReactTyped
             strings={[
               "Full Stack Developer",
-              "UI/UX Developer",
+              "Frontend Developer",
+              "Backend Engineer",
               "Content Creator",
             ]}
             typeSpeed={80}

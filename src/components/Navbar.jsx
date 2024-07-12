@@ -20,7 +20,7 @@ const Navbar = () => {
           onClick={() => setIsMenuOpen(!isMenuOpen)} 
         />
       </div>
-      <ul className={`fixed top-0 left-0 w-full h-full bg-gray-950 bg-opacity-90 flex flex-col items-center justify-center gap-6 transition-transform duration-300 md:static md:flex md:flex-row md:bg-transparent md:h-auto md:w-auto ${isMenuOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}>
+      <ul className={`fixed top-0 left-0 w-full h-full bg-black bg-opacity-90 flex flex-col items-center justify-center gap-6 transition-transform duration-300 md:static md:flex md:flex-row md:bg-transparent md:h-auto md:w-auto ${isMenuOpen ? 'translate-x-0' : '-translate-x-full md:translate-x-0'}`}>
         {['home', 'about', 'services', 'portfolio', 'contact'].map((item, index) => (
           <li key={index} className='flex flex-col gap-1 cursor-pointer text-center md:text-left'>
             <AnchorLink 
